@@ -10,9 +10,9 @@ class market:
     def cadastrarProduto():
         print("Cadastro de Produto")
         print("----------------------")
-        print("1. Re-inventario de Produto")
+        print("1. Alterar Inventario de Produto")
         print("2. Novo Produto")
-        print("3. Editar Produto")
+        print("3. Editar Produt o")
         print("4. Verificar Produto")
         print("----------------------")
 
