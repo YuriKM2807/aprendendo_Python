@@ -5,7 +5,7 @@ class market:
         print("----------------------")
         print("1 -- Realizar compra")
         print("2 -- Verificar Preco")
-        print("1 -- Desligar")
+        print("3 -- Desligar")
         print("----------------------")
     def cadastrarProduto():
         print("Cadastro de Produto")
@@ -18,13 +18,13 @@ class market:
 
 class produto:
     def __init__(self):
-        id = int 
-        preco = int
-        nome = str
-        marca = str
-        dataFabrica = datetime.date  
-        dataValidade= datetime.date
-
+        id: int 
+        preco: int
+        nome: str
+        marca: str
+        dataFabrica: datetime.date  
+        dataValidade: datetime.date
+        
 
         
         
