@@ -1,4 +1,3 @@
-import datetime 
 class market:
     def __init__(self):
         print("Mercado de Prompt")
@@ -15,18 +14,3 @@ class market:
         print("3. Editar Produt o")
         print("4. Verificar Produto")
         print("----------------------")
-
-class produto:
-    def __init__(self):
-        id: int 
-        preco: int
-        nome: str
-        marca: str
-        dataFabrica: datetime.date  
-        dataValidade: datetime.date
-        
-
-        
-        
-max = market()
-max 
